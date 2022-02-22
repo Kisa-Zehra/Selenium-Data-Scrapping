@@ -50,6 +50,8 @@ def parse_video(video):
     'description': description
   }
 
+def send_email():
+  pass
 
 if __name__=="__main__":
   print("Creating driver")
@@ -76,7 +78,10 @@ if __name__=="__main__":
   # print('Channel Name: ', channel_name)
   # print('Description: ', description)
 
-print('Save the data in CSV')
-videos_df = pd.DataFrame(videos_data)
-print(videos_df)
-videos_df.to_csv('trending.csv', index=None)
+  print('Save the data in CSV')
+  videos_df = pd.DataFrame(videos_data)
+  print(videos_df)
+  videos_df.to_csv('trending.csv', index=None)
+  
+  print("sending an email")
+  send_email()
