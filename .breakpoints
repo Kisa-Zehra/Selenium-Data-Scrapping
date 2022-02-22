@@ -1,0 +1,20 @@
+{
+  "files": {
+    "Scrapper.py": [
+      {
+        "id": "3de91173-602b-4f20-9920-0db37851b706",
+        "line": 13,
+        "version": 514,
+        "index": 251
+      }
+    ],
+    "scrapfile.html": [
+      {
+        "id": "be5a117d-41cb-49ab-a42a-46f48e61a455",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ]
+  }
+}
